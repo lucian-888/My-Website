@@ -21,16 +21,26 @@ navLinks.forEach(link => {
   });
 });
 
-// Optional: Set initial active state based on current URL
-function setInitialActiveState() {
-  const currentPath = window.location.pathname;
-  navLinks.forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
-      link.classList.add('active');
-    }
-  });
-}
 
-// Call this function when the page loads
-document.addEventListener('DOMContentLoaded', setInitialActiveState);
-
+// Add an event listener for the 'submit' event on the form with id 'contact-form'
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  // Prevent the default form submission behavior
+  event.preventDefault();
+  
+  // Use EmailJS to send the form data
+  // 'this' refers to the form element
+  emailjs.sendForm('service_a3l9l1x', 'template_2x6o3ma', this)
+      .then(function(response) {
+          // This function runs if the email is sent successfully
+          console.log('SUCCESS!', response.status, response.text);
+          // Show a success message to the user
+          alert('Message sent successfully!');
+          // Reset the form fields after successful submission
+          document.getElementById('contact-form').reset();
+      }, function(error) {
+          // This function runs if there's an error in sending the email
+          console.log('FAILED...', error);
+          // Show an error message to the user
+          alert('Failed to send message. Please try again.');
+      });
+});
