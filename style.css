@@ -14,7 +14,6 @@ body {
   flex-direction: column;
   margin-top: 250px;
   background-color: black;
-
   color: white;
   font-family: Montserrat, sans-serif;
   min-height: 100vh;
@@ -68,7 +67,6 @@ header {
 }
 
 .nav-link:hover,
-.nav-link:active,
 .nav-link:focus,
 .nav-link.active {
   color: crimson !important;
@@ -175,6 +173,10 @@ header {
   object-fit: cover;
 }
 
+#about {
+margin-bottom: 50px;
+}
+
 /* Footer */
 footer {
   background-color: white;
@@ -223,7 +225,7 @@ form textarea {
 }
 
 form button {
-  margin-top: 10px;
+  margin-top: 33px;
   padding: 10px;
   background-color: #333;
   color: white;
@@ -231,6 +233,9 @@ form button {
   cursor: pointer;
 }
 
+button {
+  margin-bottom: 33px;
+}
 /* Media Queries */
 @media (max-width: 1024px) {
   .hamburger {
