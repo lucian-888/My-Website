@@ -32,7 +32,7 @@ header {
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -89,7 +89,7 @@ header {
 
 /* Main Content */
 .container-fluid {
-   display: flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1200px;
@@ -175,6 +175,7 @@ header {
 
 #about {
 margin-bottom: 50px;
+text-align: justify;
 }
 
 /* Footer */
@@ -277,9 +278,7 @@ button {
     margin: 1.8rem 0;
   }
 
- 
-
-  .artist-description {
+ .artist-description {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -343,17 +342,16 @@ button {
     width: 100%;
   }
 
- 
-
-  .hero, .intro, .gallery {
+ .hero, .intro, .gallery {
     width: 100%;
     padding: 0 15px;
     box-sizing: border-box;
   }
 
-.artist-description {
+  .artist-description {
     font-size: 1rem;
   }
+
   .loveart {
     font-size: 32px;
     line-height: 32px;
