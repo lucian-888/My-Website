@@ -273,9 +273,16 @@ button {
     left: 0;
   }
 
-
   .nav-item {
     margin: 1.8rem 0;
+  }
+
+  .nav-link {
+  font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size:1.7rem;
   }
 
  .artist-description {
@@ -287,6 +294,7 @@ button {
 
   .artist-role {
     display: block;
+    font-size: 0.8rem
   }
 
   .gallery {
@@ -338,6 +346,10 @@ button {
     max-width: 200px;
   }
 
+    .nav-link {
+  font-size: 0.6rem;
+  }
+
   .container {
     width: 100%;
   }
@@ -348,17 +360,38 @@ button {
     box-sizing: border-box;
   }
 
+   h2 {
+    font-size:1.4rem;
+  } 
+
   .artist-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .artist-role {
+    font-size: 0.6rem
   }
 
   .loveart {
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 28px;
   }
 
   .gallery {
     grid-template-columns: 1fr;
+  }
+  
+  .social-links {
+    gap: 18px;
+  }
+
+  footer .social-links a img{
+    width: 14px !important;
+    height:14px !important;
+  }
+
+  .copyright {
+    font-size: 0.5rem;
   }
 }
 
