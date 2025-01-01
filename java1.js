@@ -44,3 +44,19 @@ document.getElementById('contact-form').addEventListener('submit', function(even
           alert('Failed to send message. Please try again.');
       });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const swiper = new Swiper('.swiper-container', {
+    loop: true, // Makes it infinite
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+});
+

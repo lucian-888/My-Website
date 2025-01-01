@@ -11,7 +11,10 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oxygen&family=Raleway&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   
 </head>
+
 <body>
    <header>
       <div class="container"> 
@@ -19,7 +22,7 @@
             <a href="#" class="nav-branding"><img src="images/logo3.png" alt="Lucian Bistreanu" class="signature-logo"></a>
             <ul class="nav-menu">
                <li class="nav-item"><a href="#top" class="nav-link">HOME</a></li>
-               <li class="nav-item"><a href="#portfolio" class="nav-link">GALLERY</a></li>
+               <li class="nav-item"><a href="#portfolio" class="nav-link">GALLERIES</a></li>
                <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
                <li class="nav-item"><a href="#bottom" class="nav-link">CONTACT</a></li>
             </ul>
@@ -52,20 +55,40 @@
          <p>A passionate photographer and artist painter with interests in web development.</p>
        </section>
 
-      <section>
-         <h2>Gallery</h2>
+      
+       
+
+       <section>
          <div class="gallery">
-            <img src="images/pic1.jpg" alt="man in white">
-            <img src="images/pic2.jpg" alt="lady modeling">
-            <img src="images/pic3.jpg" alt="lady modeling">
-            <img src="images/pic4.jpg" alt="lady modeling">
-            <img src="images/pic7.jpg" alt="portrait of a man">
-            <img src="images/pic5.jpg" alt="portrait of a woman">
-            <img src="images/pic6.jpg" alt="woman posing">
-            <img src="images/pic9.jpg" alt="three women talking">
-            <img src="images/pic8.jpg" alt="walking woman">
+           <!-- Painting -->
+           <div class="gallery-item">
+             <a href="gallery-painting.html">
+               <h3>painting</h3>
+               <img src="images/pic21.jpg" alt="Painting">
+               
+             </a>
+           </div>
+       
+           <!-- Photography -->
+           <div class="gallery-item">
+             <a href="gallery-photography.html">
+               <h3>photography</h3>
+               <img src="images/pic61.jpg" alt="Photography">
+               
+             </a>
+           </div>
+       
+           <!-- Web Developing -->
+           <div class="gallery-item">
+             <a href="gallery-webdeveloping.html">
+               <h3>web developing</h3>
+               <img src="images/pic5.jpg" alt="Web Developing">
+               
+             </a>
+           </div>
          </div>
-      </section>
+       </section>
+       
        
       <section id="about">
          <img src="images/pic10.jpg" alt="portrait" style="width: 100%; max-width: 1200px; height: auto;"><br><br>
@@ -138,5 +161,6 @@
    </script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    <script src="java1.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
