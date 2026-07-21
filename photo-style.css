@@ -541,6 +541,31 @@ a {
     line-height: 1.7;
 }
 
+.news-featured {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.news-meta {
+    margin-bottom: 14px;
+    color: #777777;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.news-link {
+    display: inline-block;
+    margin-top: 22px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #111111;
+    font-size: 0.92rem;
+}
+
+.news-link:hover {
+    opacity: 0.6;
+}
+
 /* CONTACT */
 
 .contact-introduction {
