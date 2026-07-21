@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact documentary photographer Lucian Bistreanu.">
+    <title>Contact — Lucian Bistreanu</title>
+    <link rel="icon" type="image/x-icon" href="./images/faviconLB.ico">
+    <link rel="stylesheet" href="photo-style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo"><img src="./images/logo3.png" alt="Lucian Bistreanu"></a>
+        <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="prints.html">Prints</a><a href="news.html">News</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a></nav>
+        <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </header>
+    <nav class="mobile-nav" aria-label="Mobile navigation"><a href="index.html#projects">Projects</a><a href="prints.html">Prints</a><a href="news.html">News</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a></nav>
+
+    <main class="page-content contact-page">
+        <section class="page-heading">
+            <h1>Contact</h1>
+            <p class="page-kicker">Based in Brittany, France.</p>
+        </section>
+
+        <section class="contact-introduction">
+            <p>For print enquiries, publications, exhibitions, commissions or collaborations, please contact me by email.</p>
+        </section>
+
+        <section class="contact-details">
+            <div class="contact-line"><span>Email</span><a href="mailto:lucianbistreanu@yahoo.com">lucianbistreanu@yahoo.com</a></div>
+            <div class="contact-line"><span>Instagram</span><a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">@lucian.bistreanu</a></div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 Lucian Bistreanu</p><div class="footer-links"><a href="mailto:lucianbistreanu@yahoo.com">Email</a><a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">Instagram</a></div></footer>
+    <script>const menuButton=document.querySelector('.menu-button');const mobileNav=document.querySelector('.mobile-nav');menuButton.addEventListener('click',()=>{const isOpen=mobileNav.classList.toggle('is-open');menuButton.setAttribute('aria-expanded',isOpen);});</script>
+</body>
+</html>

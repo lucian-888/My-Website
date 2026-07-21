@@ -1,170 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Passionate photographer dedicated to capturing life's beautiful moments. Specializing in portraits, events, and landscapes that tell your unique story. Let's create art together!">
-   <title>Home - Lucian Bistreanu</title>
-   <link rel="icon" type="image/x-icon" href="./images/faviconLB.ico">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oxygen&family=Raleway&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucian Bistreanu is a documentary photographer based in Brittany, France, working on long-term projects about community, memory and belonging.">
+    <title>Lucian Bistreanu — Documentary Photographer</title>
+    <link rel="icon" type="image/x-icon" href="./images/faviconLB.ico">
+    <link rel="stylesheet" href="photo-style.css">
 </head>
-
 <body>
-   <header>
-      <div class="container"> 
-         <nav class="navbar">
-            <a href="#" class="nav-branding"><img src="images/logo3.png" alt="Lucian Bistreanu" class="signature-logo"></a>
-            <ul class="nav-menu">
-               <li class="nav-item"><a href="#top" class="nav-link">HOME</a></li>
-               <li class="nav-item"><a href="#portfolio" class="nav-link">GALLERIES</a></li>
-               <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
-               <li class="nav-item"><a href="#bottom" class="nav-link">CONTACT</a></li>
-            </ul>
-            <div class="hamburger">
-               <span class="bar"></span>
-               <span class="bar"></span>
-               <span class="bar"></span>
+    <header class="site-header">
+        <a href="index.html" class="logo">
+            <img src="./images/logo3.png" alt="Lucian Bistreanu">
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="#projects" aria-current="page">Projects</a>
+            <a href="prints.html">Prints</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="menu-button" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#projects" aria-current="page">Projects</a>
+        <a href="prints.html">Prints</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <img src="./images/shepherd-romania-2026.jpg" alt="Shepherd with flock, Romania">
+        </section>
+
+        <section class="intro">
+            <h1>Lucian Bistreanu</h1>
+            <h2>Documentary Photographer</h2>
+            <p class="location">Based in Brittany, France</p>
+            <p class="intro-text">Through long-term documentary projects, I explore everyday life, community and the quiet transformations of places between Romania and France.</p>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Selected Projects</h2>
+            <div class="project-list">
+                <article class="project-feature">
+                    <a href="on-the-road.html">
+                        <img src="images/on-the-road.jpg" alt="A flock of sheep moving along a rural road in Romania">
+                        <div class="project-info">
+                            <h3>On the Road</h3>
+                            <p class="project-meta">Romania · Ongoing</p>
+                            <p class="project-description">A documentary project about movement, migration and everyday life across rural Romania.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="project-feature">
+                    <a href="guinguette.html">
+                        <img src="images/guinguette.jpg" alt="Community life at the Guinguette de Kercabiron in Brittany">
+                        <div class="project-info">
+                            <h3>Guinguette de Kercabiron</h3>
+                            <p class="project-meta">Brittany · Ongoing</p>
+                            <p class="project-description">A long-term documentary project about a community gathering around a seasonal guinguette.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="project-feature">
+                    <a href="the-garden.html">
+                        <img src="images/the-garden.jpg" alt="A blue coffee pot inside an old family home in Romania">
+                        <div class="project-info">
+                            <h3>The Garden</h3>
+                            <p class="project-meta">Romania · Ongoing</p>
+                            <p class="project-description">A personal project about memory, family and the disappearance of a place.</p>
+                        </div>
+                    </a>
+                </article>
             </div>
-         </nav>
-      </div>
-   </header>
+        </section>
+    </main>
 
-   <main class="container-fluid">
-      <section class="hero">
-         <div class="heading">
-            <p class="artist-description">
-               <span class="artist-role">ARTIST PAINTER - PHOTOGRAPHER - </span>
-               <span class="artist-role">WEB DEVELOPER</span>
-            </p>
-           <p class="par1">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+    <footer class="site-footer">
+        <p>© 2026 Lucian Bistreanu</p>
+        <div class="footer-links">
+            <a href="mailto:lucianbistreanu@yahoo.com">Email</a>
+            <a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+    </footer>
 
-           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-         </div>
-         <div class="loveart-container">
-           <p class="loveart">I love art and technology</p>
-         </div>
-       </section>
-     
-       <section id="portfolio" class="intro">
-         <p>A passionate photographer and artist painter with interests in web development.</p>
-       </section>
-
-      
-       
-
-       <section>
-         <div class="gallery">
-           <!-- Painting -->
-           <div class="gallery-item">
-             <a href="gallery-painting.html">
-               <h3>painting</h3>
-               <img src="images/pic21.jpg" alt="Painting">
-               
-             </a>
-           </div>
-       
-           <!-- Photography -->
-           <div class="gallery-item">
-             <a href="gallery-photography.html">
-               <h3>photography</h3>
-               <img src="images/pic61.jpg" alt="Photography">
-               
-             </a>
-           </div>
-       
-           <!-- Web Developing -->
-           <div class="gallery-item">
-             <a href="gallery-webdeveloping.html">
-               <h3>web developing</h3>
-               <img src="images/pic5.jpg" alt="Web Developing">
-               
-             </a>
-           </div>
-         </div>
-       </section>
-       
-       
-      <section id="about">
-         <img src="images/pic10.jpg" alt="portrait" style="width: 100%; max-width: 1200px; height: auto;"><br><br>
-         <p>A passionate photographer, artist, and web developer with a unique blend of creative and technical skills. 
-            My journey in visual arts has led me to explore the digital realm, where I combine my artistic vision with modern web technologies.
-         </p>
-         <p>With a background in art, I bring a unique perspective to my photography, enhancing my ability to create striking images. Whether it's a
-            landscape or a portrait, I strive to capture the essence of each subject.
-         </p>
-         <p>Photography is my passion, and I believe in its power to tell stories and convey emotions. 
-            I’m excited to share my work and help you preserve your cherished memories through my lens.
-         </p>
-         <p>My experience as an artist painter further enriches my creative process. The understanding of color theory, composition, and abstract 
-            thinking I've developed through painting not only influences my photography but also informs my approach to web design, allowing me to 
-            create visually harmonious and engaging digital experiences.
-         </p>
-         <p>As a web developer, I've found a new canvas in the digital world. I apply the same attention to detail and creative problem-solving
-            skills from my visual arts background to craft responsive and user-friendly websites. This unique combination of skills allows me to bridge 
-            the gap between aesthetic appeal and functional design in the digital space.
-         </p>
-      </section>
-
-      <section id="bottom">
-         <h2 id="contact">Contact</h2>
-         <form id="contact-form">
-            <label for="nom">Name:</label>
-            <input type="text" id="nom" name="user_name" autocomplete="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="user_email" autocomplete="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" autocomplete="off" required></textarea>
-
-            <button type="submit">Send</button>
-         </form>
-      </section>
-   </main>
-  
-   <footer id="footer" class="footer">
-      <div class="footer-content">
-          <div class="social-links">
-            <a href="https://www.etsy.com/shop/bistreanufineart/?etsrc=sdt" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-               <img src="images/etsy-icon.png" alt="LinkedIn" style="width: 18px; height: 18px;">
-              </a>
-              <a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                  <img src="images/instagram-icon.png" alt="Instagram" style="width: 18px; height: 18px;">
-              </a>
-              <a href="https://www.facebook.com/lucian.bistreanu.photography" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-               <img src="images/facebook-icon.png" alt="Facebook" style="width: 18px; height: 18px;">
-              </a>
-              <a href="https://www.eyeem.com/u/lucianbistreanu" target="_blank" rel="noopener noreferrer" aria-label="EyeEm">
-                  <img src="images/eyeem-icon.png" alt="EyeEm" style="width: 18px; height: 18px;">
-              </a>
-              <a href="https://www.linkedin.com/in/lucian-bistreanu-b879a41/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-               <img src="images/linkedin-icon.png" alt="LinkedIn" style="width: 18px; height: 18px;">
-              </a>
-              
-          </div>
-          <div class="copyright">
-            <a href="https://lucianbistreanu.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-              
-            <p style="color: black; word-spacing:1px; opacity: 0.6;">by BISTREANU &copy; 2025</p>
-            </a>
-          </div>
-      </div>
-  </footer>
-  
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-   <script type="text/javascript">
-      (function() {
-        emailjs.init("8HRqXxpchv2ROza4w");
-      })();
-   </script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   <script src="java1.js"></script>
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const menuButton = document.querySelector('.menu-button');
+        const mobileNav = document.querySelector('.mobile-nav');
+        menuButton.addEventListener('click', () => {
+            const isOpen = mobileNav.classList.toggle('is-open');
+            menuButton.setAttribute('aria-expanded', isOpen);
+        });
+    </script>
 </body>
 </html>

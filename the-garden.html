@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Garden — an ongoing documentary project by Lucian Bistreanu.">
+    <title>The Garden — Lucian Bistreanu</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/faviconLB.ico">
+    <link rel="stylesheet" href="photo-style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo">
+        <img src="./images/logo3.png" alt="Lucian Bistreanu">
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="prints.html">Prints</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</header>
+
+<nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html#projects">Projects</a>
+    <a href="prints.html">Prints</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main class="page-content project-page">
+
+    <section class="project-intro">
+
+        <h1>The Garden</h1>
+
+        <p class="project-page-meta">
+            Romania · 2000–Present · Ongoing
+        </p>
+
+        <p class="project-statement">
+            The Garden is an ongoing documentary project exploring one place across
+            time. Made over more than two decades in the garden of my family's home
+            in Romania, the work reflects on memory, absence and continuity through
+            everyday moments, portraits and ordinary gestures. As generations change
+            and the place itself transforms, the garden becomes a witness to what
+            remains and what quietly disappears.
+        </p>
+
+    </section>
+
+    <section class="project-gallery garden-gallery">
+
+        <figure>
+            <img src="./images/garden-01.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-02.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-03.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-04.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-05.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-06.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-07.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-08.jpg" alt="The Garden">
+        </figure>
+
+        <figure>
+            <img src="./images/garden-09.jpg" alt="The Garden">
+        </figure>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>© 2026 Lucian Bistreanu</p>
+
+    <div class="footer-links">
+        <a href="mailto:lucianbistreanu@yahoo.com">Email</a>
+        <a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+</footer>
+
+<script>
+const menuButton = document.querySelector('.menu-button');
+const mobileNav = document.querySelector('.mobile-nav');
+
+menuButton.addEventListener('click', () => {
+    const isOpen = mobileNav.classList.toggle('is-open');
+    menuButton.setAttribute('aria-expanded', isOpen);
+});
+</script>
+
+</body>
+</html>

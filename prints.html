@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Archival pigment prints by documentary photographer Lucian Bistreanu.">
+    <title>Prints — Lucian Bistreanu</title>
+    <link rel="icon" type="image/x-icon" href="./images/faviconLB.ico">
+    <link rel="stylesheet" href="photo-style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo"><img src="./images/logo3.png" alt="Lucian Bistreanu"></a>
+        <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="prints.html" aria-current="page">Prints</a><a href="news.html">News</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+        <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </header>
+    <nav class="mobile-nav" aria-label="Mobile navigation"><a href="index.html#projects">Projects</a><a href="prints.html" aria-current="page">Prints</a><a href="news.html">News</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+
+    <main class="page-content prints-page">
+        <section class="page-heading prints-text">
+            <h1>Prints</h1>
+            <p>Archival pigment prints from ongoing documentary projects.</p>
+            <p>Selected photographs are available as archival pigment prints on museum-quality fine art paper using archival inks. Each print is produced in a limited edition, signed and numbered.</p>
+        </section>
+
+        <figure class="featured-print">
+            <img src="images/shepherd-romania-2026.jpg" alt="The Shepherd, Romania, 2026">
+            <figcaption>
+                <p class="print-title">The Shepherd</p>
+                <p>From the series <em>On the Road</em><br>Romania, 2026</p>
+                <p class="print-technique">Archival pigment print on Hahnemühle Photo Rag 308 gsm.</p>
+            </figcaption>
+        </figure>
+
+        <section class="print-details">
+             <div>
+        <h2>Available Sizes</h2>
+
+        <p>30 × 45 cm</p>
+        <p>50 × 75 cm</p>
+        <p>70 × 105 cm</p>
+
+        <p class="print-technique">
+            Printed with a white border for handling and framing.
+        </p>
+    </div>
+            <div>
+        <h2>Edition</h2>
+
+        <p>Limited edition of 10</p>
+        <p>Signed and numbered</p>
+        <p>Certificate of authenticity included</p>
+    </div>
+        </section>
+
+        <section class="print-order">
+            <h2>Ordering</h2>
+            <p>If you are interested in acquiring a print, please get in touch by email. Information about availability, pricing, framing and shipping will be provided on request.</p>
+            <a class="contact-button" href="contact.html">Contact</a>
+        </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 Lucian Bistreanu</p><div class="footer-links"><a href="mailto:lucianbistreanu@yahoo.com">Email</a><a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">Instagram</a></div></footer>
+    <script>const menuButton=document.querySelector('.menu-button');const mobileNav=document.querySelector('.mobile-nav');menuButton.addEventListener('click',()=>{const isOpen=mobileNav.classList.toggle('is-open');menuButton.setAttribute('aria-expanded',isOpen);});</script>
+</body>
+</html>
