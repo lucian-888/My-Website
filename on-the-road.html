@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="photo-style.css">
 </head>
 
-<body>
+<body id="top">
 
     <header class="site-header">
         <a class="logo" href="index.html">
@@ -135,17 +135,23 @@
 
         </section>
 
-        <nav class="project-navigation">
-            <a href="index.html#projects">← Selected Projects</a>
-            <a href="guinguette.html">Next Project →</a>
-        </nav>
-
     </main>
 
-    <footer>
+    <nav class="project-navigation" aria-label="Project navigation">
+        <a href="index.html#projects">← All projects</a>
+        <a href="guinguette.html">Next project →</a>
+    </nav>
+
+    <div class="back-top-container">
+        <a href="#top" class="back-to-top">↑ Top</a>
+    </div>
+
+    <footer class="site-footer">
         <p>© 2026 Lucian Bistreanu</p>
-        <a href="mailto:your-email@example.com">Email</a>
-        <a href="#">Instagram</a>
+        <div class="footer-links">
+            <a href="mailto:lucianbistreanu@yahoo.com">Email</a>
+            <a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
     </footer>
 
     <script>
