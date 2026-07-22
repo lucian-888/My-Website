@@ -566,6 +566,19 @@ a {
     opacity: 0.6;
 }
 
+.news-note {
+    margin-top: 18px;
+    max-width: 620px;
+    color: #666;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.news-note a {
+    border-bottom: 1px solid currentColor;
+}
+
 /* CONTACT */
 
 .contact-introduction {
@@ -620,6 +633,29 @@ a {
     gap: 25px;
 }
 
+
+   /* =========================
+   Back to Top
+========================= */
+
+.back-top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 40px;
+}
+
+.back-to-top {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color .2s ease;
+}
+
+.back-to-top:hover {
+    color: #000;
+}
 /* TABLET AND MOBILE */
 
 @media (max-width: 800px) {
@@ -807,4 +843,5 @@ a {
     .site-footer p {
         margin: 0 0 10px;
     }
-}
+
+ 
