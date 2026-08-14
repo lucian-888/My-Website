@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Article 11 | Lucian Bistreanu</title>
+
+    <link rel="stylesheet" href="photo-style.css">
+</head>
+
+<body id="top">
+
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <img src="images/logo3.png" alt="Lucian Bistreanu">
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="index.html?v=20260814-article11#projects">Projects</a>
+            <a href="prints.html">Prints</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="menu-button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="index.html?v=20260814-article11#projects">Projects</a>
+        <a href="prints.html">Prints</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main class="project-page">
+
+        <section class="project-opening">
+            <img
+                class="project-cover"
+                src="images/greve.jpg"
+                alt="Demonstration in Lorient, Brittany"
+            >
+
+            <div class="project-introduction">
+                <h1>Article 11</h1>
+
+                <p class="project-page-meta">
+                    Brittany, France · 2021–2026
+                </p>
+
+                <p class="project-statement">
+                    Between 2021 and 2026, I photographed social demonstrations in Lorient, Brittany. Rather than documenting political demands, this work observes the gestures, faces and ordinary moments that emerge when people gather in public space. Families, workers, police officers and bystanders all become part of the same visual landscape. The title refers to Article 11 of the European Convention on Human Rights, while the photographs remain deliberately observational, leaving space for viewers to form their own reading.
+                </p>
+            </div>
+        </section>
+
+        <section class="project-gallery" aria-label="Article 11 photo series">
+            <figure>
+                <img
+                    src="images/greve-01.jpg"
+                    alt="Documentary photograph from Article 11" loading="eager"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-02.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-03.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-04.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-05.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-06.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-07.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-08.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-09.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-10.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-11.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-12.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-13.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+            <figure>
+                <img
+                    src="images/greve-14.jpg"
+                    alt="Documentary photograph from Article 11" loading="lazy"
+                    decoding="async"
+                >
+            </figure>
+
+        </section>
+
+    </main>
+
+    <nav class="project-navigation" aria-label="Project navigation">
+        <a href="keryado.html?v=20260814-article11">← Previous project</a>
+        <a href="index.html?v=20260814-article11#projects">All projects</a>
+    </nav>
+
+    <div class="back-top-container">
+        <a href="#top" class="back-to-top">↑ Top</a>
+    </div>
+
+    <footer class="site-footer">
+        <p>© 2026 Lucian Bistreanu</p>
+        <div class="footer-links">
+            <a href="mailto:lucianbistreanu@yahoo.com">Email</a>
+            <a href="https://www.instagram.com/lucian.bistreanu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://lucianbistreanu.com" target="_blank" rel="noopener noreferrer">Painting ↗</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector(".menu-button");
+        const mobileNav = document.querySelector(".mobile-nav");
+
+        if (menuButton && mobileNav) {
+            menuButton.addEventListener("click", () => {
+                const isOpen = mobileNav.classList.toggle("is-open");
+                menuButton.setAttribute("aria-expanded", isOpen);
+            });
+        }
+    </script>
+
+    <!-- Cloudflare Web Analytics -->
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"61085c2f098b4f26b9d3e727be24db0b"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+</body>
+</html>
